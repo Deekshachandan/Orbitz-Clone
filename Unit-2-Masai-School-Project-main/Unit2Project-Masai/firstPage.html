@@ -4,29 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <title>ORBITZ</title>
     <link rel="stylesheet" href="./index.css" />
+    <style></style>
   </head>
+
+  <style></style>
+
   <body>
-    <nav class="navbar">
-      <div>
-        <img
-          src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2"
-          alt=""
-        />
-      </div>
+    <div id="india">
+      <div id="firstpic">
+        <div id="navbar">
+          <div id="pic">
+            <img
+              id="photo"
+              src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2"
+              alt=""
+            />
+          </div>
 
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-
-      <div class="navbar-links">
-        <ul>
-          <li>
-            <select onchange="window.location.href=this.value;">
-              <option value="More travel">more travel</option>
+          <div id="mainbox">
+            <select
+              id="sudhirselect"
+              name="links"
+              size="1"
+              onchange="window.location.href=this.value;"
+            >
+              <option value="More travel">More travel</option>
               <option value="stays.html">Stays</option>
               <option value="flights.html">Flights</option>
               <option value="packages.html">Packages</option>
@@ -41,47 +45,45 @@
               </option>
               <option value="https://www.orbitz.com/blog/">Travel Vlog</option>
             </select>
-          </li>
-
-          <li><a href="listproperty.html">List your Property</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="login.html">Log in</a></li>
-          <li><a href="signin.html">Sign in</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="firstpic">
-      <div id="imp">
-        <div id="border12">
-          <div id="heading">
-            <h2>Search Stays</h2>
-            <input id="location" type="text" placeholder="Going to" />
-            <input
-              type="date"
-              name="cheackin"
-              placeholder="cheack in"
-              id="cheackin"
-            />
-            <input
-              type="date"
-              name="cheackout"
-              id="cheackout"
-              placeholder="check out"
-            />
-            <input type="text" id="travellers" placeholder="travelers" />
           </div>
 
-          <div>
-            <input type="checkbox" name="cheackbox" id="box" />Add a Flight
-            <input type="checkbox" name="checkbox" id="box" />Add a Car
+          <div id="bar">
+            <p><a href="listproperty.html">List your Property</a></p>
+            <p><a href="support.html">Support</a></p>
+            <p><a href="login.html">Log in</a></p>
+            <p><a href="signin.html">Sign in</a></p>
           </div>
-          <div><button id="sudbut">Search</button></div>
+        </div>
+
+        <div id="imp">
+          <div id="border12">
+            <div id="heading">
+              <h1>Search Stays</h1>
+              <input id="location" type="text" placeholder="Going to" />
+              <input
+                type="date"
+                name="cheackin"
+                placeholder="cheack in"
+                id="cheackin"
+              />
+              <input
+                type="date"
+                name="cheackout"
+                id="cheackout"
+                placeholder="check out"
+              />
+              <input type="text" id="travellers" placeholder="travelers" />
+            </div>
+            <div>
+              <input type="checkbox" name="cheackbox" id="box" />Add a Flight
+              <input type="checkbox" name="checkbox" id="box" />Add a Car
+            </div>
+            <div><button id="sudbut">Search</button></div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div id="main">
+      <div id="main">
         
         <div id="one">
           <div>
@@ -144,11 +146,9 @@
           </div>
         </div>
 
-
         <div id="fourh1">
           <h1>Here to help keep you on the move</h1>
         </div>
-
         <div id="four">
           <div>
             <h2>Change or cancel a trip</h2>
@@ -164,10 +164,9 @@
           </div>
         </div>
 
-  <div id="fiveh1">
+        <div id="fiveh1">
           <h1>Traveling tips</h1>
         </div>
-
 
         <div id="five">
           <div>
@@ -189,7 +188,6 @@
             alt=""
           />
         </div>
-
 
         <div id="seven">
           <div>
@@ -214,7 +212,11 @@
             <input type="number" placeholder="country code" />
             <input type="number" placeholder="phone number" />
             <button id="button">Get the app</button>
-           
+            <p>
+              By providing your number, you agree to receive a one-time
+              automated text message with a link to get the app. Standard text
+              message rates may apply.
+            </p>
           </div>
 
           <div>
@@ -227,13 +229,10 @@
           </div>
         </div>
 
-
-
-
         <h1>More Destinations</h1>
         <div id="eight">
           <div>
-            <select class="destinationSelect">
+            <select>
               <option value="">Destination deals</option>
               <option value="Flights under $200">Flights under $200</option>
               <option value="Travel deals">Travel deals</option>
@@ -252,7 +251,7 @@
           </div>
 
           <div>
-            <select class="destinationSelect">
+            <select>
               <option value="">Top hotel beach destination</option>
               <option value="Atlantic city hotels">Atlantic city hotels</option>
               <option value="Lahaina hotels">Lahaina hotels</option>
@@ -266,7 +265,7 @@
           </div>
 
           <div>
-            <select name="" id="" class="destinationSelect">
+            <select name="" id="">
               <option value="">Top hotel city destination</option>
               <option value="Austin hotels">Austin hotels</option>
               <option value="Chicago hotels">Chicago hotels</option>
@@ -281,7 +280,7 @@
           </div>
 
           <div>
-            <select name="" id="" class="destinationSelect">
+            <select name="" id="">
               <option value="">Top vacation Destination</option>
               <option value="Carribbean vacation">Carribbean vacation</option>
               <option value="Mexico vacation">Mexico Vacation</option>
@@ -301,7 +300,7 @@
           </div>
 
           <div>
-            <select name="" id="" class="destinationSelect">
+            <select name="" id="">
               <option value="">Top flight destination</option>
               <option value="Flight to Las Vegas">Flight to Las Vegas</option>
               <option value="Flight to Las Angels">Flight to Las Angels</option>
@@ -328,7 +327,7 @@
           </div>
 
           <div>
-            <select name="" id="" class="destinationSelect">
+            <select name="" id="">
               <option value="">Top car rentals in America</option>
               <option value="Car Rentals in Atlanta">
                 Car Rentals in Atlanta
@@ -375,8 +374,6 @@
             </select>
           </div>
         </div>
-
-
 
         <div id="nine">
           <div>
@@ -427,6 +424,7 @@
           </div>
         </div>
 
+        <hr />
 
         <div id="ten">
           <p>
@@ -437,23 +435,30 @@
             trademarks of Orbitz, LLC. CST# 2083930-50.
           </p>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
+      </div>
+    </div>
   </body>
 </html>
-<script src="./index.js"></script>
+<script>
+  document.querySelector("button").addEventListener("click", myfuct);
+
+  function myfuct(event) {
+    event.preventDefault();
+
+    a = document.querySelector("#location").value;
+
+    b = document.querySelector("#cheackin").value;
+
+    c = document.querySelector("#cheackout").value;
+
+    d = document.querySelector("#travellers").value;
+
+    console.log(a, b, c, d);
+
+    if ((a == "mumbai" && d >= 1, a == "delhi" && d >= 1)) {
+      window.open("stay.js.html");
+    } else {
+      alert("Please Enter correct city and Travellers greater than 1");
+    }
+  }
+</script>
